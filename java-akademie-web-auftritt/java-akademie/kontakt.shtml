@@ -1,0 +1,45 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+
+		<h1>Kontakt</h1>
+	
+		<p class="kontaktinfo">
+			
+			<table>
+				<tr>
+					<td><b>Tel:</b></td>
+					<td>+41 61 3632255</td>
+				</tr>
+				<tr>
+					<td><b>Mobil:</b></td>
+					<td>+41 79 3216264</td>
+				</tr>
+				<tr>
+					<td><b>E-Mail:</b></td>
+					<td>
+						<a href="mailto:johann.mildner@balcab.ch">
+							Johann Mildner, johann.mildner@balcab.ch
+						</a>
+					</td>
+				</tr>
+			</table>
+			
+		</p>
+	
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

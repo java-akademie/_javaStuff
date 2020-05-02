@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE server>
+
+
+	<!-- 
+		nur fuer JBoss_5 erlaubt 
+		
+		JBoss_6 nutzt hornetq
+	-->
+
+	
+<server>
+
+	<mbean code="org.jboss.mq.server.jmx.Topic" 
+			name="jboss.mq.destination:service=Topic,name=jeesTopic">
+
+		<depends optional-attribute-name="DestinationManager">
+			jboss.mq:service=DestinationManager
+		</depends>
+
+	</mbean>
+
+	<mbean code="org.jboss.mq.server.jmx.Queue" 
+			name="jboss.mq.destination:service=Queue,name=jeesQueue">
+
+		<depends optional-attribute-name="DestinationManager">
+			jboss.mq:service=DestinationManager
+		</depends>
+
+	</mbean>
+
+</server>

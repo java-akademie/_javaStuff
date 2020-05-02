@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE datasources> 
+
+<datasources>
+	
+	<datasource jndi-name="jdbc/jeesOracle" pool-name="oraclePool">
+	
+		<connection-url>jdbc:oracle:thin:@10.211.55.9:1521:xe</connection-url>
+		
+		<driver>ojdbc7.jar</driver>
+		
+		<security>
+			<user-name>jees</user-name>
+			<password>jees</password>
+		</security>
+		
+		<pool>
+			<min-pool-size>10</min-pool-size>
+			<max-pool-size>20</max-pool-size>
+			<prefill>true</prefill>
+		</pool>
+		
+	</datasource>
+
+</datasources>

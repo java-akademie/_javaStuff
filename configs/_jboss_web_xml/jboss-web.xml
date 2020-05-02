@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE jboss-web>
+
+
+<jboss-web>
+
+    <resource-ref>
+        <res-ref-name>jdbc/jeesH2</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <jndi-name>java:jdbc/jeesH2</jndi-name>
+    </resource-ref>
+    
+    <resource-ref>
+        <res-ref-name>jdbc/jeesMySql</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <jndi-name>java:jdbc/jeesMySql</jndi-name>
+    </resource-ref>
+    
+    <resource-ref>
+        <res-ref-name>jdbc/jeesPostgres</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <jndi-name>java:jdbc/jeesPostgres</jndi-name>
+ 	</resource-ref>
+ 	
+    <resource-ref>
+        <res-ref-name>jdbc/jeesOracle</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <jndi-name>java:jdbc/jeesOracle</jndi-name>
+    </resource-ref>
+    
+</jboss-web>

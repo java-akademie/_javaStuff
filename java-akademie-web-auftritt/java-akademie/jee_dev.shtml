@@ -1,0 +1,128 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+		
+		<p align="right">
+			<small>
+				Vorkurs:&nbsp;<a href="java_scjp.shtml">JAVA SCJP</a> 
+			</small>
+		</p>
+
+		<p class="kurstitel">JEE DEV</p>
+		
+		<h1>Java EE Developer</h1>
+
+		<h2>Zielsetzung</h2>
+		<p>
+			Dieses Seminar richtet sich an Java-Entwickler 
+			die sich darauf spezialisieren wollen, JSP (Java Server Pages) 
+			und die Java Servlet Technologie f&uuml;r die Entwicklung von 
+			Web Anwendungen sowie EJB's (Enterprise Java Beans) f&uuml;r 
+			die Entwicklung von robusten mehrschichtigen verteilten 
+			Applikationen zu verwenden.		
+		</p>
+	
+		<h2>Voraussetzung</h2>
+		<p>
+			Java Kenntnisse wie Sie sie in JAVA I und JAVA II erworben haben 
+			oder gleichwertige anderweitig erworbene Kenntnisse. 
+		</p>
+	
+		<h2>Methoden</h2>
+		<p>
+			Gruppenunterricht mit Lehrer und PC-Praxis.<br />
+			Pro Woche ist mit 6 - 8 Stunden Hausaufgaben und &Uuml;bungen zu 
+			rechnen.
+		</p>
+	
+		<h2>Kursdurchf&uuml;hrung</h2>
+		<p>
+			Es wird grosser Wert auf eine ganzheitliche Programmierausbildung 
+			und auf praktische &Uuml;bungen gelegt &mdash; sowohl Einzel&uuml;bungen 
+			als auch Fallstudien die Sie begleiten werden.
+		</p>
+		
+		<p>
+			Als integrierte Entwicklungsumgebung (IDE) werden Sie ECLIPSE, 
+			als Datenbank MySQL und als Applikationsserver JBOSS verwenden.
+		</p>
+	
+		<table>
+			<tr>
+				<td><b>Dauer</b></td>
+				<td>16 Wochen &agrave; 4 Lektionen = 64 Lektionen</td>
+			</tr>
+			<tr>
+				<td><b>Daten</b></td>
+				<td>Donnerstag 17:45 - 21:00 eventuell 8 Samstage </td>
+			</tr>
+			<tr>
+				<td><b>Kosten</b></td>
+				<td>3'500.00 Fr bei mindestens 4 Teilnehmern</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;&nbsp;bei 3 Teilnehmern je 4'500.00 Fr</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;&nbsp;weniger als drei Teilnehmer auf Anfrage</td>
+			</tr>
+		</table>
+	
+		&nbsp;
+	
+		<h2>Kursinhalt</h2>
+		<ul>
+			<li>
+				Einf&uuml;hrung in den Applikationsserver
+				<ul>
+					<li>Verwendungszweck 	</li>
+					<li>Installation 	 	</li>
+					<li>Starten und Beenden	</li>
+				</ul>
+			</li>
+						
+			<li>
+				Eclipse
+				<ul>
+					<li>WEB Project 			</li>
+					<li>EJB Project 			</li>
+					<li>EAR Project WEB & EJB	</li>
+				</ul>
+			</li>
+			
+			<li>
+				WEB Programmierung					
+				<ul>
+					<li>HTML, XML						</li>
+					<li>Servlets, Java Server Pages		</li>
+					<li>Beans, Tags, Actions			</li> 
+					<li>Java Standard Tag Library (JSTL)</li>
+					<li>Expression Language (EL)		</li>
+				</ul>
+			</li>
+			
+			<li>
+				EJB Programmierung					
+				<ul>
+					<li>Session Beans (stateful, stateless 	</li>
+					<li>Message Driven Beans				</li>
+					<li>Web Services (JAXWS-RI)				</li>
+				</ul>
+			</li>
+			
+			<li>
+				Eine relationale Datenbank (MySQL)	
+				<ul>
+					<li>Installation					</li>
+					<li>Starten und Beenden				</li>
+					<li>Data Source						</li>
+					<li>Data Access Object (DAO)		</li>
+				</ul>
+			</li>
+		</ul>
+
+	</div>
+	
+<!--#include virtual="footer.shtml"--> 

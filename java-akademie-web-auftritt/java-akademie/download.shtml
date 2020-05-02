@@ -1,0 +1,31 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+		
+		<h1>Downloads</h1>
+
+		<a href="http://downloads.java-akademie.ch/loesungen">		L&ouml;sungen 	</a><br/>
+		<a href="http://downloads.java-akademie.ch/spiele">  		Spiele    		</a><br/>
+		<a href="http://downloads.java-akademie.ch/tools">  		Tools     		</a><br/>
+		<a href="http://downloads.java-akademie.ch/temp">  			Temp     		</a><br/>
+		<a href="http://downloads.java-akademie.ch/csbeMontag">		CSBE Montag		</a><br/>
+		<a href="http://downloads.java-akademie.ch/csbeMittwoch">	CSBE Mittwoch	</a><br/>
+		<a href="http://downloads.java-akademie.ch/benedictFreitag">	Benedict Freitag	</a><br/>
+		<a href="http://downloads.java-akademie.ch/allgemeines">	Allgemeines		</a><br/>
+	
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	 
+	</div>
+
+<!--#include virtual="footer.shtml"-->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Context>
+
+<Context>
+
+	<!-- 
+		WebContent/META-INF/context.xml
+		
+		Noetig, wenn man in einem Web Projekt 
+		DataSource benutzen will
+		w/JNDI_NAME
+	-->
+	
+	<Resource
+		name="jdbc/jeesH2"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="sa"
+		password=""
+		driverClassName="org.h2.Driver"
+		url="jdbc:h2:tcp://localhost/~/test"
+	/>	
+
+	
+	<Resource
+		name="jdbc/jeesMySql"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="jees"
+		password="jees"
+		driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/jees"
+	/>	
+
+	
+	<Resource
+		name="jdbc/jeesPostgres"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="jees"
+		password="jees"
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost:5432/jees"
+	/>
+
+	
+	<Resource
+		name="jdbc/jeesOracle"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="jees"
+		password="jees"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@localhost:1521:xe"
+	/>	
+		
+</Context>

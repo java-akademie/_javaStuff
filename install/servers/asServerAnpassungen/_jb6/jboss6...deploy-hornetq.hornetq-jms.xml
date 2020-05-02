@@ -1,0 +1,25 @@
+
+
+
+    <!-- in hornetq-jms.xml an das Ende einfuegen -->
+
+   <queue name="ExpiryQueue">
+      <entry name="/queue/ExpiryQueue"/>
+   </queue>
+   
+   <queue name="jeesQueue">
+      <entry name="/queue/jees"/>
+   </queue>
+   
+   <topic name="jeesTopic">
+      <entry name="/topic/jees"/>
+   </topic>
+   
+   <queue name="chatQueue">
+      <entry name="/queue/chat"/>
+   </queue>
+   
+   <topic name="chatTopic">
+      <entry name="/topic/chat"/>
+   </topic>
+

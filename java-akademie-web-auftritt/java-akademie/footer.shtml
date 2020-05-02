@@ -1,0 +1,12 @@
+
+<!-- ende des {div id='seite'} aus dem header -->
+</div>
+
+
+<div id="fuss">
+	<p class="copyright">&copy; 2013 Java-Akademie &mdash; created by Johann Mildner, Basel </p>
+</div>
+
+</body>
+
+</html>

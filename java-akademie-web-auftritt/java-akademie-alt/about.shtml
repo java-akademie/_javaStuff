@@ -1,0 +1,66 @@
+
+<!--#include virtual="header.shtml"--> 
+	<div id="inhalt">
+		
+		<h1>IT-Schulungen von Profis</h1>
+		<p class="schlagzeile">Die IT-Teachers sind erfahrene Profis im IT-Bereich!</p>
+		<p class="schlagzeile">Die IT-Teachers sind erfahrene Profis im Schulungsbereich!</p>
+		<p>Wir kombinieren unsere langjährigen Erfahrungen aus dem Bereich der
+		Softwareentwicklung mit didaktischem und pädagogischem Können. Wir verstehen 
+		nicht nur etwas von Programmierung, wir wissen auch, wie dieses Verständnis zu vermitteln ist.
+		</p>
+		<h2>--> Johann Mildner</h2>
+		<ul>
+			<li>Mehr als 25 Jahre Erfahrung in der kommerziellen Softwareentwicklung
+				<ul>
+					<li>
+						Hostentwicklung auf IBM Grosssystemen
+					</li>
+					<li>
+						Java/J2EE-Entwicklung
+					</li>
+					<li>
+						C-Entwicklung
+					</li>
+				</ul>
+			</li>
+	 		<li>Langjährige Unterrichtspraxis mit Jugendlichen und Erwachsenen an privaten Schulen</li>
+	 		<li>Unterrichtserfahrung nach <a href="http://www.i-ch.ch" title="i-ch, Informatik-Berufsbildung Schweiz">i-ch, Informatik-Berufsbildung Schweiz</a></li>
+	 		<li>Spezialgebiete:
+	 			<ul>
+	 				<li>Java,</li> 
+	 				<li>J2EE, Struts, Spring, Hibernate</li>
+	 				<li>C/C++</li>
+	 			</ul>
+	 		</li>
+	 	</ul>
+		<h2>--> Markus Ruggiero</h2>
+		<ul>
+			<li>Mehr als 18 Jahre Erfahrung in der kommerziellen Softwareentwicklung
+				<ul>
+					<li>Privatwirtschaft und öffentlicher Sektor (kantonal und auf Bundesebene)</li>
+					<li>Management Info Systeme, Telefonie und Kommunikation, Umwelt, Pharma</li>
+					<li>SW-Entwicklung, Projektleitung, Systemarchitekt, Produktmanagement</li>
+				</ul>
+			</li>
+	 		<li>Diplom für das Höhere Lehramt</li>
+	 		<li>Langjährige Unterrichtspraxis mit Jugendlichen und Erwachsenen an öffentlichen und privaten Schulen</li>
+	 		<li>Unterrichtserfahrung nach <a href="http://www.i-ch.ch" title="i-ch, Informatik-Berufsbildung Schweiz">i-ch, Informatik-Berufsbildung Schweiz</a></li>
+	 		<li>Veröffentlichung mehrerer Lehrmittel für i-ch-Module</li>
+	 		<li>Spezialgebiete:
+	 			<ul>
+	 				<li>Datenbankentwurf</li>
+	 				<li>SQL</li>
+	 				<li>Objektorientierter Entwurf</li>
+	 				<li>Programmieren in C, Objective-C und Java</li>
+	 				<li>Programmieren unter Apple Mac OS X</li>
+	 				<li>HTML und CSS</li>
+	 			</ul>
+	 		</li>
+	 	</ul>
+	 
+	 	<h2>Unsere Kernkompetenzen</h2>
+	 	<p>IT-Teachers sind Spezialisten mit langjähriger Erfahrung in der IT wie auch im Unterricht</p>
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

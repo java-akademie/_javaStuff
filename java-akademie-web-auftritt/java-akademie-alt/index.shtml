@@ -1,0 +1,31 @@
+
+<!--#include virtual="header.shtml"--> 
+	
+	<div id="inhalt">
+
+		<h1>Java Schulung für ...</h1>
+		<h2>==> Privatpersonen</h2>
+		<ul>
+			<li>Sie möchten Programmieren lernen?</li>
+	 		<li>Nur aus Büchern lernen ist nicht Ihr Ding?</li>
+	 		<li>Sie haben keine ganze Woche Zeit für einen Blockkurs?</li>
+	 	</ul>
+		<h2>==> Firmen</h2>
+		<ul>
+			<li>Ihre Mitarbeiter sollen Programmieren lernen?</li>
+	 		<li>Learning-on-the-Job bringt zuwenig?</li>
+	 		<li>Sie wünschen effiziente Wissensvermittlung innerhalb kurzer Zeit?</li>
+	 		<li>Sie können es sich nicht leisten, Mitarbeiter tagelang in einen Kurs zu schicken?</li>
+	 	</ul>
+	 
+	 	<h2>Unser Konzept</h2>
+	 	<p>Wir bieten JAVA Ausbildung für Privatpersonen und Firmen an.</p>
+		<p>Wir wollen keine mehrtägigen Seminare anbieten, wie andere Schulen das für Firmenkunden tun,
+			sondern Kurse, die in kleineren Blöcken über mehrere Wochen gehen.</p>
+		<p>Der Vorteil ist, dass Sie sich als Kursteilnehmer mit der Thematik über längere Zeit 
+			beschäftigen können und somit einen besseren Lernerfolg haben.</p>
+		<p>Wir bieten Abend- und Halbtageskurse an.</p>
+	
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

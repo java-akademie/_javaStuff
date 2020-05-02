@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE log4j:configuration>
+
+<log4j:configuration debug="false"
+	xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<param name="threshold" value="debug" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %p [%c] - %m%n" />
+		</layout>
+	</appender>
+
+
+
+	<logger name="ch.jmildner">
+		<level value="debug" />
+	</logger>
+
+
+	<logger name="org.jboss">
+		<level value="error" />
+	</logger>
+
+	<logger name="org.jnp">
+		<level value="error" />
+	</logger>
+
+
+
+	<root>
+		<appender-ref ref="STDOUT" />
+	</root>
+
+</log4j:configuration>

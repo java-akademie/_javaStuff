@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- persistence.xml WCDS JPA 2.0 ECLIPSELINK JTA=RESOURCE_LOCAL -->
+
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+	http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+	<!-- persistence-unit name = MYSQL|H2|ORACLE|POSTGRES -->
+	<!-- eclipselink.ddl-generation = none|create-tables/drop-and-create-tables -->
+	<!-- eclipselink.logging.level = OFF|SEVERE|WARNING|INFO|CONFIG|FINE|FINER|FINEST|ALL -->
+	<!-- eclipselink.ddl-generation.output-mode = sql-script|database|both -->
+
+	<persistence-unit name="MYSQL" transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jees" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+
+			<property name="eclipselink.logging.level" value="finer" />
+
+			<property name="eclipselink.application-location" value="c:/temp" />
+			<property name="eclipselink.drop-ddl-jdbc-file-name" value="drop_MYSQL.sql" />
+			<property name="eclipselink.create-ddl-jdbc-file-name"
+				value="create_MYSQL.sql" />
+
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="both" />
+
+		</properties>
+
+	</persistence-unit>
+
+
+
+	<persistence-unit name="ORACLE" transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+
+			<property name="eclipselink.logging.level" value="off" />
+
+			<property name="eclipselink.application-location" value="c:/temp" />
+			<property name="eclipselink.drop-ddl-jdbc-file-name" value="drop_ORACLE.sql" />
+			<property name="eclipselink.create-ddl-jdbc-file-name"
+				value="create_ORACLE.sql" />
+
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="both" />
+
+		</properties>
+
+	</persistence-unit>
+
+
+
+	<persistence-unit name="POSTGRES" transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/jees" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+
+			<property name="eclipselink.logging.level" value="off" />
+
+			<property name="eclipselink.application-location" value="c:/temp" />
+			<property name="eclipselink.drop-ddl-jdbc-file-name" value="drop_POSTGRES.sql" />
+			<property name="eclipselink.create-ddl-jdbc-file-name"
+				value="create_POSTGRES.sql" />
+
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="both" />
+
+		</properties>
+
+	</persistence-unit>
+
+
+
+	<persistence-unit name="H2" transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<exclude-unlisted-classes>false</exclude-unlisted-classes>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/test4" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+
+			<property name="eclipselink.logging.level" value="off" />
+
+			<property name="eclipselink.application-location" value="c:/temp" />
+			<property name="eclipselink.drop-ddl-jdbc-file-name" value="drop_H2.sql" />
+			<property name="eclipselink.create-ddl-jdbc-file-name"
+				value="create_H2.sql" />
+
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="both" />
+		</properties>
+
+	</persistence-unit>
+
+</persistence>
+

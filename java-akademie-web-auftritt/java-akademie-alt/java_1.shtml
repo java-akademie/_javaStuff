@@ -1,0 +1,80 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+
+		<p class="kurstitel">Java I</p>
+		<h1>Einführung in die Java Programmiersprache</h1>
+
+	<h2>Zielsetzung</h2>
+	<p>
+		Java-Programmierer sind gesuchte Fachleute am Informatikmarkt. Die Programmiersprache Java erfreut sich 
+		einer grossen Beliebtheit sowie einer immer breiter werdenden Unterstützung auf allen Ebenen der Informatik. 
+		Java Programme sind Plattform unabhängig und portabel. Der Traum der Softwareentwickler "write once – 
+		run everywhere" wird durch Java zur Wirklichkeit. Die ebenfalls in der Sprache eingebaute Unterstützung 
+		von Netzwerk-Computing und Threading (Nebenläufigkeit) sowie seine strikten Sicherheitsmechanismen haben 
+		Java zur Sprache der Wahl für verteilte Applikationen im Internet und Intranet werden lassen.
+	</p>
+	
+	<h2>Voraussetzung</h2>
+	<p>Gute Informatik-Grundkenntnisse, sowie der Wunsch sich solide Grundlagen der Programmierung anzueignen.</p>
+	
+	<h2>Methoden</h2>
+	<p>
+		Gruppenunterricht mit Lehrer und PC-Praxis.<br />
+		Pro Woche ist mit 6 – 8 Stunden Hausaufgaben und Übungen zu rechnen.
+	</p>
+	
+	<h2>Kursdurchführung</h2>
+	<p>
+		Es wird grosser Wert auf eine ganzheitliche Programmierausbildung und auf praktische Übungen gelegt &mdash; 
+		sowohl Einzelübungen als auch eine Fallstudie die Sie begleiten werden (eine Adressverwaltung).
+	</p>
+	<p>
+		Während dieser Fallstudie werden Sie alle Java-Komponenten die für die Programmierung nötig sind kennen lernen. 
+		Zu Beginn werden Sie Ihre Programme mit einem Texteditor (TextPad) erstellen und über die Kommandozeilenkonsole 
+		kompilieren und testen. Später werden Sie ECLIPSE zur Entwicklung verwenden.
+	</p>
+	<p>
+		Am Ende dieses Kurses sind Sie in der Lage einfache bis mittelschwere strukturierte Programme zu schreiben.
+	</p>
+	<table>
+	<tr><th>Dauer</th><td>12 Wochen à 4 Lektionen = 48 Lektionen</td></tr>
+	<tr><th>Daten</th><td>Dienstag 18:15 – 21:30</td></tr>
+	<tr><th>Kosten</th><td>2'400.00 Fr</td></tr>
+	</table>
+	<p>&nbsp;</p>
+	
+	<h2>Kursinhalt</h2>
+	<ul>
+		<li>Programmierlogik</li>
+		<ul>
+			<li>Grundbegriffe</li>
+			<li>Logik und Algorithmen</li>
+			<li>Graphische Darstellungen (Funktionsdiagramme, Ablaufdiagramme)</li>
+		</ul>
+		<li>Einführung in die Objektorientierung</li>
+		<ul>
+			<li>Erklärung der wichtigsten OO-Begriffe</li>
+			<li>Klassen, Vererbung, Polymorphismus </li>
+		</ul>
+		<li>JAVA Grundlagen (prozedurale Programmierung)</li>
+		<ul>
+			<li>Entwicklungsgeschichte und Besonderheiten von Java</li>
+			<li>Verstehen des Quellcodes eines Programms</li>
+			<li>Syntax und Semantik der Java-Programmiersprache</li>
+			<li>Deklaration von primitiven Datentypen, Literale, Arrays
+			<li>Zuweisungsoperationen, Ausdrücke</li>
+			<li>Kontrollstrukturen (if-else, while, for, do-while, switch)</li>
+			<li>Methoden, Parametererübergabe</li>
+			<li>Entwurf von Programmen mit der Main-Methode</li>
+			<li>Ein-/Ausgabe über Bildschirm/Tastatur, Dateien</li>
+		</ul>
+	</ul>
+	<h2>Folgekurse</h2>
+	<table>
+		<tr><td><a href="java_scjp.shtml" title="JAVA SCJP">JAVA&nbsp;SCJP</a></td><td>Vorbereitung zur Prüfung zum Sun Certified Java Programmer</td></tr>
+		<tr><td><a href="java_2.shtml" title="JAVA II">JAVA&nbsp;II</a></td><td>Java für Fortgeschrittene</td></tr>
+	</table>
+ 
+	</div>
+<!--#include virtual="footer.shtml"--> 

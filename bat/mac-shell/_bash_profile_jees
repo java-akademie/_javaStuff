@@ -1,0 +1,10 @@
+
+JEE_SEMINAR=/Volumes/WD500GB/jeeSeminar
+export JEE_SEMINAR
+
+CATALINA_HOME=$JEE_SEMINAR/utils/apache-tomcat-7.0.42
+export CATALINA_HOME
+
+JBOSS_HOME=$JEE_SEMINAR/utils/jboss-6.1.0.Final
+export JBOSS_HOME
+

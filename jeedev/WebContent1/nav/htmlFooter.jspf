@@ -1,0 +1,35 @@
+
+</body>
+
+</html>
+
+<%
+	//	out.println("<hr />vor out.flush() ...");
+	out.flush();
+%>
+
+<%!//
+
+	public void jspInit()
+	{
+		System.out.println(this.toString() + " geladen");
+	}
+
+
+	public void jspDestroy()
+	{
+		System.out.println(this.toString() + " entladen");
+	}
+
+
+	void ausgeben(JspWriter o, String text)
+	{
+		try
+		{
+			o.println(text + "<br/>");
+		}
+		catch (Exception e)
+		{
+		}
+	}
+	//%>

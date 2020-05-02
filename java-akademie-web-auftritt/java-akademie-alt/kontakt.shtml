@@ -1,0 +1,32 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+
+		<h1>Kontakt</h1>
+		<h2>Adresse</h2>
+		<p class="kontaktinfo">
+			IT-Teachers<br />
+			Steinentorstrasse 8<br />
+			4051 Basel<br />
+			Schweiz
+		</p>
+		<p class="kontaktinfo">
+			Tel / Fax +41 61 271 49 90<br />
+			Mail <a href="mailto:info@it-teachers.ch" title="Senden Sie uns ein Mail">info@it-teachers.ch</a>
+		</p>
+		
+		<h2>Wollen Sie die IT-Teachers direkt erreichen?</h2>
+		<p class="kontaktinfo">
+			<a href="mailto:markus.ruggiero@it-teachers.ch" title="Senden Sie ein Mail direkt an Markus Ruggiero">markus.ruggiero@it-teachers.ch</a><br />
+			<a href="mailto:johann.mildner@it-teachers.ch" title="Senden Sie ein Mail direkt an Johann Mildner">johann.mildner@it-teachers.ch</a>
+		</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

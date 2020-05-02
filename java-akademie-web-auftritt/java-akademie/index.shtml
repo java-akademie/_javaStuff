@@ -1,0 +1,57 @@
+
+<!--#include virtual="header.shtml"--> 
+	
+	<div id="inhalt">
+
+		<h1>Java Schulung f&uuml;r ...</h1>
+		
+		<h2>&mdash;&nbsp;&nbsp;Privatpersonen</h2>
+		
+		<ul>
+			<li>Sie m&ouml;chten Programmieren lernen?			</li>
+	 		<li>Nur aus B&uuml;chern lernen ist nicht Ihr Ding?		</li>
+	 		<li>Sie haben keine ganze Woche Zeit f&uuml;r einen Blockkurs?	</li>
+	 	</ul>
+		
+		<h2>&mdash;&nbsp;&nbsp;Firmen</h2>
+		
+		<ul>
+			<li>Ihre Mitarbeiter sollen Programmieren lernen?		</li>
+	 		<li>Learning-on-the-Job bringt zuwenig?				</li>
+	 		<li>Sie w&uuml;nschen effiziente Wissensvermittlung innerhalb 
+	 								kurzer Zeit? 	</li>
+	 		<li>Sie k&ouml;nnen es sich nicht leisten, Mitarbeiter tagelang 
+	 						in einen Kurs zu schicken?	</li>
+	 	</ul>
+	 
+	 	<h2>Unser Konzept</h2>
+	 	
+	 	
+                
+	 		Wir bieten JAVA Ausbildung an f&uuml;r: 
+	 		<ul>
+	 			<li>Privatpersonen
+	 				<ul>
+	 					<li>als Abendkurse bei einer unserer
+	 						Partnerschulen in Bern, Z&uuml;rich 
+	 						und Basel</li>
+	 				</ul>
+	 			</li>
+	 			<li>Firmen
+	 				<ul>
+	 					<li>als halbt&auml;gige Inhouskurse</li>
+	 				</ul>
+	 			</li>
+	 		</ul>
+                        
+	 
+		
+		<p>
+			Der Vorteil ist, dass Sie sich als Kursteilnehmer mit der 
+			Thematik &uuml;ber l&auml;ngere Zeit besch&auml;ftigen k&ouml;nnen und somit 
+			einen besseren Lernerfolg haben.
+		</p>
+	
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	xmlns="http://java.sun.com/xml/ns/persistence"
+	version="2.0">
+	
+	<persistence-unit name="kunden" transaction-type="RESOURCE_LOCAL">
+	
+		<class>de.jpainfo.model.Konto</class>
+		<class>de.jpainfo.model.Buchung</class>
+		
+		<properties>
+
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/bank" />
+			<property name="javax.persistence.jdbc.user" value="jpa" />
+			<property name="javax.persistence.jdbc.password" value="jpa" />
+
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+			<property name="eclipselink.ddl-generation.output-mode"	value="database" />
+            <property name="eclipselink.logging.level" value="FINE" />
+            
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" /> 
+			<property name="hibernate.show_sql" value="true" />
+            
+            <property name="openjpa.Log" value="SQL=TRACE" />
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(SchemaAction='add,deleteTableContents')"/>
+			
+		</properties>
+
+	</persistence-unit>
+</persistence>

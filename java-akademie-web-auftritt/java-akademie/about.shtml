@@ -1,0 +1,38 @@
+
+<!--#include virtual="header.shtml"--> 
+	
+	<div id="inhalt">
+		
+		<h1>IT-Schulungen von Profis</h1>
+		
+		<p class="schlagzeile">Unsere Kursleiter sind erfahrene Profis im IT-Bereich!</p>
+		<p class="schlagzeile">Unsere Kursleiter sind erfahrene Profis im Schulungsbereich!</p>
+		
+		<p>
+			Wir kombinieren unsere langj&auml;hrigen Erfahrungen aus dem Bereich der
+			Softwareentwicklung mit didaktischem und p&auml;dagogischem K&ouml;nnen. 
+			Wir verstehen nicht nur etwas von Programmierung, wir wissen auch, 
+			wie dieses Verst&auml;ndnis zu vermitteln ist.
+		</p>
+		
+		<h2>Johann Mildner - <small>Master of Advanced Studies in Information Technology</small></h2>
+		<ul>
+			<li>Mehr als 25 Jahre Erfahrung in der kommerziellen Softwareentwicklung
+				<ul>
+					<li>
+						Hostentwicklung auf IBM Grosssystemen
+					</li>
+					<li>
+						C-Entwicklung auf diversen Unix Systemen 
+					</li>
+					<li>
+						Java/JEE-Entwicklung
+					</li>
+				</ul>
+			</li>
+	 		<li>Mehr als 10 Jahre Unterrichtspraxis mit Jugendlichen und Erwachsenen an privaten Schulen</li>
+	 	</ul>
+	 
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

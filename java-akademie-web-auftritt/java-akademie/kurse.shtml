@@ -1,0 +1,66 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+		
+		<h1>Unser Kursangebot</h1>
+		
+		<p>
+			Wir bieten fix festgelegte Kurse an oder stellen ganz nach 
+			Ihren Bed&uuml;rfnissen ein Programm zusammen.
+		</p>
+	
+		<h2>Java Standard Edition</h2>
+		
+		<table>
+			<tr>
+				<td><a href="java_1.shtml">JAVA I</a></td>
+				<td>&nbsp;</td>
+				<td>Einf&uuml;hrung in die Java Programmiersprache</td>
+			</tr>
+			<tr>
+				<td><a href="java_2.shtml">JAVA II</a></td>
+				<td>&nbsp;</td>
+				<td>Java f&uuml;r Fortgeschrittene</td>
+			</tr>
+			<tr>
+				<td><a href="java_scjp.shtml">SCJP</a></td>
+				<td>&nbsp;</td>
+				<td>Vorbereitung zur Pr&uuml;fung zum Sun Certified Java Programmer</td>
+			</tr>
+		</table>
+		
+		&nbsp;
+
+		<h2>Java Enterprise Edition</h2>
+		
+		<table>
+			<tr>
+				<td><a href="jee_wcd.shtml">JEE WCD</a></td>
+				<td>&nbsp;</td>
+				<td>JEE Web Component Developer</td>
+			</tr>
+			<tr>
+				<td><a href="jee_bcd.shtml">JEE BCD</a></td>
+				<td>&nbsp;</td>
+				<td>JEE Business Component Developer</td>
+			</tr>
+			<tr>
+				<td><hr/></td>
+			</tr>
+			<tr>
+				<td><a href="jee_dev.shtml">JEE Developer</a></td>
+				<td>&nbsp;</td>
+				<td>JEE Web Component Developer & JEE Business Component Developer</td>
+			</tr>
+		</table>
+		
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

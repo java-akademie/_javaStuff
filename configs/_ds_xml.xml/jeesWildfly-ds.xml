@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- + - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+<!-- !                jees-ds.xml fuer WILDFLY                     ! -->
+<!-- + - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - + -->
+
+<!DOCTYPE datasources> 
+
+<datasources>
+		
+	<datasource jndi-name="jdbc/jeesH2" pool-name="h2Pool">
+	
+		<connection-url>jdbc:h2:tcp://localhost/~/test</connection-url>
+		
+		<driver>h2</driver>
+		
+		<security>
+			<user-name>sa</user-name>
+			<password></password>
+		</security>
+		
+		<pool>
+			<min-pool-size>10</min-pool-size>
+			<max-pool-size>20</max-pool-size>
+			<prefill>true</prefill>
+		</pool>
+		
+	</datasource>
+	
+	
+	<datasource jndi-name="jdbc/jeesPostgres" pool-name="postgresPool">
+	
+		<connection-url>jdbc:postgresql://localhost:5432/jees</connection-url>
+		
+		<driver>postgresql-9.4-1201.jdbc41.jar</driver>
+		
+		<pool>
+			<min-pool-size>10</min-pool-size>
+    		<max-pool-size>20</max-pool-size>
+			<prefill>true</prefill>
+		</pool> 
+		
+		<security>
+			<user-name>jees</user-name>
+			<password>jees</password>
+		</security>
+		
+	</datasource>
+	
+	
+</datasources>

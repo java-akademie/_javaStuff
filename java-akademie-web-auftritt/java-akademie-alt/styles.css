@@ -1,0 +1,110 @@
+body {
+	color: black; 
+	background-color: white;
+	font-size: 100.01%;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0; 
+	padding: 1em 0;
+	text-align: center;  /* Zentrierung im Internet Explorer */
+}
+
+div#kopf {
+	text-align: left;    /* Seiteninhalt wieder links ausrichten */
+	margin: 0 auto;      /* standardkonforme horizontale Zentrierung */
+	width: 800px;
+	padding: 0.5em;
+	border: 2px ridge silver;
+}
+	
+div#seite {
+	text-align: left;    /* Seiteninhalt wieder links ausrichten */
+	margin: 0 auto;      /* standardkonforme horizontale Zentrierung */
+	width: 800px;
+	padding: 0.5em;
+	border: 2px ridge silver;
+}
+
+div#fuss {
+	text-align: left;    /* Seiteninhalt wieder links ausrichten */
+	margin: 0 auto;      /* standardkonforme horizontale Zentrierung */
+	width: 800px;
+	padding: 0.5em;
+	border: 2px ridge silver;
+}
+
+.schlagzeile {
+/*	background-color: yellow; */
+	font-weight: bold;
+	font-style: italic;
+	color: #ae0000;
+}
+
+.kurstitel {
+	font-style: italic;
+	color: red;
+	font-size: -1;
+}
+
+html>body div#Seite {
+	border-color: gray;  /* Farbangleichung an den Internet Explorer  */
+}
+
+ul#navigation {
+	font-size: 0.91em;
+	float: left; width: 15em;
+	margin: 0; padding: 0;
+	border: none; /*1px dashed silver; */
+}
+
+ul#navigation li {
+	list-style: none;
+	margin: 0; padding: 0.5em;
+}
+
+ul#navigation a {
+	display: block;
+	padding: 0.2em;
+	font-weight: bold;
+}
+
+ul#navigation a:link {
+	color: black; background-color: #eee;
+}
+
+ul#navigation a:visited {
+	color: #666; background-color: #eee;
+}
+
+ul#navigation a:hover {
+	color: black; background-color: white;
+}
+
+ul#navigation a:active {
+	color: white; background-color: gray;
+}
+
+div#inhalt {
+	margin-left: 15em;
+	padding: 0 1em;
+	border: none; /* 1px dashed silver; */
+}
+
+div#inhalt h1 {
+	font-size: 1.5em;
+	margin: 0 0 1em;
+}
+
+div#inhalt h2 {
+	font-size: 1.2em;
+	margin: 0 0 1em;
+}
+
+div#inhalt p {
+	font-size:1em;
+	margin: 1em 0;
+}
+
+.copyright {
+	font-size: small;
+	color: #a0a0a0;
+}

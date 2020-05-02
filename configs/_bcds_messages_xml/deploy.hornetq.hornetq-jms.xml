@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration>
+
+
+<configuration>
+	
+	
+	<!-- 
+		
+		JBoss_6 nutzt hornetq
+		
+		nach deploy.hornetq.hornetq-jms.xml kopieren
+
+	-->
+
+	<queue name="jeesQueue">
+		<entry name="/queue/jees" />
+	</queue>
+	
+	<topic name="jeesTopic">
+		<entry name="/topic/jees" />
+	</topic>
+		
+	<queue name="chatQueue">
+		<entry name="/queue/chat" />
+	</queue>
+	
+	<topic name="chatTopic">
+		<entry name="/topic/chat" />
+	</topic>
+	
+</configuration>

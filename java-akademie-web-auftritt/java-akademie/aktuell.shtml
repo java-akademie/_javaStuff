@@ -1,0 +1,30 @@
+<!--#include virtual="header.shtml"-->
+
+<div id="inhalt">
+
+	<h1>Aktuell</h1>
+
+	<p>
+		<a
+			href="http://www.computerschule-bern.ch/csbe/index.asp?content=java-academy-switzerland">
+			Computer Schule Bern 
+		</a>
+	</p>
+
+	<p>
+		<a href="http://www.benedict.ch/zh,in"> B&eacute;n&eacute;dict Z&uuml;rich,
+			Informatik  
+		</a>
+	</p>
+
+
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+
+</div>
+
+<!--#include virtual="footer.shtml"-->

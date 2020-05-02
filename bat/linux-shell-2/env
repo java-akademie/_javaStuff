@@ -1,0 +1,20 @@
+JEE_ROOT=~/jeeSeminar
+
+JAVA_HOME=$JEE_ROOT/utils/jdk1.7.0
+export JAVA_HOME
+
+ECLIPSE_HOME=$JEE_ROOT/utils/eclipse
+export ECLIPSE_HOME
+
+CATALINA_HOME=$JEE_ROOT/utils/apache-tomcat-7.0.23
+export CATALINA_HOME
+
+JBOSS_HOME=$JEE_ROOT/utils/jboss-6.1.0.Final
+export JBOSS_HOME
+
+H2_HOME=$JEE_ROOT/utils/h2
+export H2_HOME
+
+PATH=$JAVA_HOME/bin:$ECLIPSE_HOME:$CATALINA_HOME/bin:$JBOSS_HOME/bin:$H2_HOME/bin:$PATH
+export PATH
+

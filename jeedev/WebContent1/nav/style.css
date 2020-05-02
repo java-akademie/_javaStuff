@@ -1,0 +1,99 @@
+/******************************************************/
+/* dieses css beinhaltet weit mehr als wir benoetigen */
+/******************************************************/
+body {
+	background-color: #ffff00;
+}
+
+caption {
+	padding: 10px 0px 0px 0px;
+	color: blue;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	/* text-align: left; */
+}
+
+caption.data1 {
+	padding: 10px 0px 0px 0px;
+	color: blue;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	/* text-align: left; */
+}
+
+caption.data2 {
+	padding: 0px 0px 20px 0px;
+	color: green;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: left;
+}
+
+table.data {
+	/* border-style: double; */
+	border: 4px solid black;
+}
+
+table.data1 {
+	border: 4px solid black;
+	/* border-style: double; */
+	caption-side: top;
+}
+
+table.data2 {
+	border: 4px solid black;
+	/* border-style: double; */
+	caption-side: bottom;
+}
+
+tr.data:nth-child(even) {
+	background: #edf4f5;
+}
+
+tr.data:nth-child(odd) {
+	background: #dae0e1;
+}
+
+th {
+	background-color: #ff7f00; /* orange */
+	padding: 4px 4px 4px 4px;
+	border: 2px solid;
+}
+
+td.data {
+	border: 1px solid;
+	padding: 2px 4px 2px 4px;
+}
+
+td.menue {
+	padding: 2px 4px 2px 4px;
+}
+
+.button {
+	display: inline-block;
+	padding: 6px 12px 6px 12px;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 0px 5px 5px 5px;
+	box-shadow: 0 4px lightgrey;
+}
+
+.button:hover {
+	background-color: lightgrey;
+}
+
+.button:active {
+	background-color: grey;
+	box-shadow: 0 2px lightgrey;
+	transform: translateY(2px) translateX(2px);
+}

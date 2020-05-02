@@ -1,0 +1,134 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+
+		<p class="kurstitel">Java I</p>
+		<h1>Einf&uuml;hrung in die Java Programmiersprache</h1>
+
+		<h2>Zielsetzung</h2>
+		<p>
+			Java-Programmierer sind gesuchte Fachleute am Informatikmarkt. 
+			Die Programmiersprache Java erfreut sich einer grossen 
+			Beliebtheit sowie einer immer breiter werdenden Unterst&uuml;tzung 
+			auf allen Ebenen der Informatik. 
+			Java Programme sind Plattform unabh&auml;ngig und portabel. 
+			Der Traum der Softwareentwickler "write once - run everywhere" 
+			wird durch Java zur Wirklichkeit. 
+			Die ebenfalls in der Sprache eingebaute Unterst&uuml;tzung von 
+			Netzwerk-Computing und Threading (Nebenl&auml;ufigkeit) sowie seine 
+			strikten Sicherheitsmechanismen haben Java zur Sprache der Wahl 
+			f&uuml;r verteilte Applikationen im Internet und Intranet werden 
+			lassen.
+		</p>
+	
+		<h2>Voraussetzung</h2>
+		<p>
+			Gute Informatik-Grundkenntnisse, sowie der Wunsch, sich solide 
+			Grundlagen der Programmierung anzueignen.
+		</p>
+	
+		<h2>Methoden</h2>
+		<p>
+			Gruppenunterricht mit Lehrer und PC-Praxis.<br />
+			Pro Woche ist mit 6 - 8 Stunden Hausaufgaben und &Uuml;bungen zu 
+			rechnen.
+		</p>
+	
+		<h2>Kursdurchf&uuml;hrung</h2>
+		<p>
+			Es wird grosser Wert auf eine ganzheitliche Programmierausbildung 
+			und auf praktische &Uuml;bungen gelegt &mdash; sowohl Einzel&uuml;bungen 
+			als auch eine Fallstudie die Sie begleiten wird 
+			(eine Adressverwaltung).
+		</p>
+		
+		<p>
+			W&auml;hrend dieser Fallstudie werden Sie alle Java-Komponenten die 
+			f&uuml;r die Programmierung n&ouml;tig sind kennen lernen. 
+			Zu Beginn werden Sie Ihre Programme mit einem Texteditor 
+			erstellen und &uuml;ber die Kommandozeilenkonsole kompilieren und 
+			testen. 
+			Sp&auml;ter werden Sie ECLIPSE zur Entwicklung verwenden.
+		</p>
+		
+		<p>
+			Am Ende dieses Kurses sind Sie in der Lage einfache bis 
+			mittelschwere strukturierte Programme zu schreiben.
+		</p>
+	
+		<table>
+			<tr>
+				<td><b>Dauer</b></td>
+				<td>12 Wochen &agrave; 4 Lektionen = 48 Lektionen</td>
+			</tr>
+			<tr>
+				<td><b>Daten</b></td>
+				<td>Montag oder Mittwoch 18:00 - 21:30</td>
+			</tr>
+			<tr>
+				<td><b>Kosten</b></td>
+				<td>2'400.00 Fr</td>
+			</tr>
+		</table>
+	
+		&nbsp;
+	
+		<h2>Kursinhalt</h2>
+		<ul>
+			<li>
+				Einrichten des PC/Laptop
+				<ul>
+					<li>JDK-1.6 	</li>
+					<li>Eclipse 	</li>
+				</ul>
+			</li>
+			
+			<li>
+				Programmierlogik
+				<ul>
+					<li>Grundbegriffe								</li>
+					<li>Logik und Algorithmen						</li>
+				</ul>
+			</li>
+			
+			<li>
+				JAVA Grundlagen (prozedurale Programmierung)
+				<ul>
+					<li>package, import, class						</li>
+					<li>Java Konventionen, Programmierrichtlinien	</li>
+					<li>Primitive Datentypen (int, double, boolean)	</li>
+					<li>Komplexe Datentypen (String)				</li> 
+					<li>Literale, Arrays							</li> 
+					<li>Zuweisungsoperationen, Ausdr&uuml;cke 		</li>
+					<li>Kontrollstrukturen</li>
+					<ul>
+						<li>if, if-else, switch 	</li>
+						<li>for, while, do-while	</li>
+					</ul> 
+					<li>Methoden, Parameterer&uuml;bergabe				</li>
+					<li>Entwurf von Programmen mit der Main-Methode	</li>
+					<li>Ein-/Ausgabe &uuml;ber Bildschirm/Tastatur	</li>
+					<li>Lesen und schreiben Dateien					</li>
+				</ul>
+			</li>
+			
+			<li>
+				Einf&uuml;hrung in die Objektorientierung
+				<ul>
+					<li>Klassen, Interfaces			</li>
+					<li>Vererbung, Polymorphismus	</li>
+					<li>Konstruktoren, Methoden		</li>
+					<li>Overloading, Overriding		</li>
+				</ul>
+			</li>
+		</ul>
+	
+		<p align="right">
+			<small>
+				Folgekurs:&nbsp;<a href="java_2.shtml">JAVA II</a> 
+			</small>
+		</p>
+		
+	</div>
+	
+<!--#include virtual="footer.shtml"--> 

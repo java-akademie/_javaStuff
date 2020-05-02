@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence 
+	http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+	<!-- eclipselink.ddl-generation = -->
+	<!-- ..... none | create-tables | drop-and-create-tables -->
+
+	<!-- eclipselink.logging.level = -->
+	<!-- ..... ALL|OFF|SEVERE|WARNING|INFO|CONFIG|FINE|FINER|FINEST -->
+
+	<!-- eclipselink.ddl-generation.output-mode = -->
+	<!-- ..... sql-script|database|both -->
+
+	<persistence-unit name="bcds" transaction-type="JTA">
+
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+
+		<jta-data-source>jdbc/postgres</jta-data-source>
+
+		<properties>
+
+			<property name="eclipselink.ddl-generation" value="drop-and-create-tables" />
+
+
+			<property name="eclipselink.logging.level" value="FINEST" />
+
+<!--  
+			<property name="eclipselink.drop-ddl-jdbc-file-name" 	value="drop1.sql" />
+			<property name="eclipselink.create-ddl-jdbc-file-name"	value="create1.sql" />
+-->
+			<property name="eclipselink.ddl-generation.output-mode"
+				value="both" />
+
+		</properties>
+
+
+	</persistence-unit>
+
+</persistence>

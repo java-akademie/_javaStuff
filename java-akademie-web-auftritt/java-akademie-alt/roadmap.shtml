@@ -1,0 +1,55 @@
+﻿<!--#include virtual="header.shtml"--> 
+
+<div id="inhalt">
+		
+<h1>Roadmap</h1>
+		
+<p>
+	Sie haben sich also für Java entschieden. Gute Wahl!
+	Wie können Sie Ihr Ziel erreichen?
+</p>
+    	<ul>
+     		<li>xxx</li> 
+     		<li>xxx</li>
+     	</ul>
+<p>
+äääüüü
+
+
+
+Sie haben frü erkannt,
+dass erser
+
+asdfasdf
+
+<p>Sie haben früäüèüh erkannt</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>äasäadfasdfadsfäasdääääaaa<p>&nbsp;1.	Machen Sie den Anfängerkurs, und wenn es Ihnen gefällt, besuchen Sie den Vorbereitungskurs zum SCJP und legen Sie die Prüfung zum Sun Certified Java Programmer ab. 
+Diese Prüfung ist Voraussetzung für alle folgenden Prüfungen.
+2.	Besuchen Sie den Fortgeschrittenenkurs und den Vorbereitungskurs zum SCJD und legen Sie die Prüfung zum Sun Certified Java Developer ab.
+Nun können Sie sich Java Entwickler nennen. Sie sind in der Lage grössere Java Projekte durchzuführen. Sie können Netzwerkprogramme (multi User, multi Tasking), ansprechende GUI Programme sowie Datenbankprogramme schreiben.
+Dieses Ziel erreichen Sie in etwa einem Jahr. Sollten Sie die Zertifikate nicht machen wollen, verringert sich der Aufwand rein rechnerisch auf ein halbes Jahr. Es wird aber empfohlen mindestens das SCJP Zertifikat zu erwerben.
+Fahren Sie nun fort mit der Ausbildung zum Java Enterprise Edition Entwickler.
+3.	Machen Sie den Kurs zum Web Component Developer und den Vorbereitungskurs zum SCWCD und legen Sie die Prüfung zum Sun Certified Web Component Developer ab.
+4.	Machen Sie den Kurs zum Business Component Developer und den Vorbereitungskurs zum SCBCD und legen Sie die Prüfung zum Sun Certified Business Component Developer ab.
+Nun sind Sie ein Java EE Entwickler. Sie können Web Programme mit Servlets und JSP’s  schreiben und Sie können EJB’s (Enterprise Java Beans) entwickeln. 
+Ihre Programme laufen nun in Web Containern (Tomcat) und in Applikationsservern (JBoss, Weblogic, Glassfish …). Sie benutzen relationale Datenbanken.
+Dieses Ziel können Sie in einem weiteren Jahr erreichen. Auch hier gilt, wenn Sie die Zertifizierung nicht anstreben verringert sich die Ausbildung ebenfalls auf ein halbes Jahr.
+Java Zertifikate
+SCJP		Sun Certified Java Programmer
+SCJD		Sun Certified Java Developer
+SCWCD	Sun Certified Web Component Developer
+SCBCD		Sun Certified Business Component Developer
+Roadmap zu den Zertifizierungen
+JAVA SE I		Java Kurs für Anfänger				1. Semester
+JAVA SE SCJP		Vorbereitungskurs für das SCJP Zertifikat	
+JAVA SE II		Java Kurs für Fortgeschrittene			2. Semester
+JAVA SE SCJD		Vorbereitungskurs für das SCJD Zertifikat	
+JAVA EE WCD		Web Component Developer Kurs		3. Semester
+JAVA EE SCWCD	Vorbereitungskurs für das SCWCD Zertifikat
+JAVA EE BCD		Business Component Developer Kurs		4. Semester
+JAVA EE SCBCD	Vorbereitungskurs für das SCBCD Zertifikat
+	</div>
+
+<!--#include virtual="footer.shtml"-->

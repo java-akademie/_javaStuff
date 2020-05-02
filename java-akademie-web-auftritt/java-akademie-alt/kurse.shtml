@@ -1,0 +1,85 @@
+<!--#include virtual="header.shtml"--> 
+
+<div id="inhalt">
+		
+		<h1>Unser Kursangebot</h1>
+		
+		<p>
+			Wir bieten fix festgelegte Kurse an oder stellen ganz nach 
+			Ihren Bedürfnissen ein Programm zusammen.
+		</p>
+		
+		<p>
+			Folgende Kurse sind zur Zeit geplant, weitere Kurse nach Bedarf. 
+		</p>
+		
+		<h2>Abendkurse (12 oder 24 Wochen)</h2>
+		
+		<table>
+			<tr>
+				<td><a href="java_1.shtml" title="Einführung in die Java Programmiersprache">JAVA I</a></td>
+				<td>Einführung in die Java Programmiersprache (12 Wochen)</td>
+			</tr>
+			<tr>
+				<td><a href="java_scjp.shtml" title="Vorbereitung zur Prüfung">JAVA SCJP</a></td>
+				<td>Vorbereitung zur Prüfung (12 Wochen)</td>
+			</tr>
+			<tr>
+				<td><!--a href="java_2.shtml" title="Java für Fortgeschrittene"-->JAVA II<!--/a--></td>
+				<td>Java für Fortgeschrittene (24 Wochen)</td>
+			</tr>
+			<tr>
+				<td><!--a href="j2ee.shtml" title="Web &amp; Business Component Developer"-->J2EE<!--/a--></td>
+				<td>Web &amp; Business Component Developer (24 Wochen)</td>
+			</tr>
+			<tr>
+				<td><!--a href="j2ee_web.shtml" title="Web Component Developer"-->J2EE WEB<!--/a--></td>
+				<td>Web Component Developer (12 Wochen)</td>
+			</tr>
+			<tr>
+				<td><!--a href="j2ee_struts.shtml" title="Struts Framework"-->J2EE STRUTS<!--/a--></td>
+				<td>Das Struts Framework (noch offen)</td>
+			</tr>
+			<tr>
+				<td><!--a href="j2ee_jsf.shtml" title="Java Server Faces"-->J2EE JSF<!--/a--></td>
+				<td>Java Server Faces (noch offen)</td>
+			</tr>
+			<tr>
+				<td><!--a href="hibernate.shtml" title="O/R Mapping von relationalen Datenbanken"-->Hibernate<!--/a--></td>
+				<td>O/R Mapping von relationalen Datenbanken (noch offen)</td>
+			</tr>
+		</table>
+
+		<h2>Tagesseminare</h2>
+		
+		<table>
+			<tr>
+				<td><!--a href="java_upd1.shtml" title="Strukturiert Programmieren mit Java"-->JAVA Auffrischung I<!--/a--></td>
+				<td>Strukturiert Programmieren mit Java</td>
+			</tr>
+			<tr>
+				<td><!--a href="java_upd2.shtml" title="Java Auffrischung"-->JAVA Auffrischung II<!--/a--></td>
+				<td>Objektorientiert Programmieren mit Java</td>
+			</tr>
+			<tr>
+				<td><!--a href="java_gui.shtml" title="Grafische Oberflächen erstellen"-->JAVA GUI<!--/a--></td>
+				<td>Grafische Oberflächen erstellen</td>
+			</tr>
+			<tr>
+				<td><!--a href="java_threads.shtml" title="Programmieren mit Threads"-->JAVA THREADS<!--/a--></td>
+				<td>Programmieren mit Threads</td>
+			</tr>
+			<tr>
+				<td><!--a href="java_net.shtml" title="Netzwerkprogrammierung"-->JAVA NET<!--/a--></td>
+				<td>Netzwerkprogrammierung</td>
+			</tr>
+			<tr>
+				<td><!--a href="java_jdbc.shtml" title="Datenbankprogrammierung"-->JAVA JDBC<!--/a--></td>
+				<td>Datenbankprogrammierung </td>
+			</tr>
+		</table>
+
+	 
+</div>
+
+<!--#include virtual="footer.shtml"--> 

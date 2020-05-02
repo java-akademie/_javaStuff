@@ -1,0 +1,27 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+
+		<p class="kurstitel">J2EE Struts</p>
+		<h1>Das Struts Framework</h1>
+		<p>Bitte fragen Sie uns direkt an, wenn Sie Interesse haben</p>
+		<p><a href="kontakt.shtml" title="zur Kontaktinfo">-> Kontakt</a></p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+		<p>&nbsp;</p> 
+<!--		<h2>Beschreibung</h2>
+		<p>tbs...</p>
+		<h2>Dauer</h2>
+		<p>tbs...</p>
+		<h2>Inhalt</h2>
+		<p>tbs...</p>
+-->	 
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

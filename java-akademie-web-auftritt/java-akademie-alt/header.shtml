@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+	<title>:: Java-Akademie :: Wir unterrichten Informationstechnologien</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<meta name="keywords" content="java, schulung, basel, j2ee, scjp" />
+</head>
+<body>
+
+<div id="kopf">
+	<h1>Java-Akademie</h1> 
+</div>
+
+<div id="seite">
+   
+     	<ul id="navigation">
+     		<li><a href="index.shtml">Home</a></li>
+     		<li><a href="roadmap.shtml">Roadmap</a></li>
+     		<li><a href="kurse.shtml">Kurse</a></li>
+     		<li><a href="dienstleistungen.shtml">Dienstleistungen</a></li>
+     		<li><a href="about.shtml">Wer wir sind</a></li>
+     		<li><a href="kontakt.shtml">Kontakt</a></li>
+     		<li><a href="download.shtml">Downloads</a></li>
+     		<li><a href="links.shtml">Links</a></li>
+     	</ul>
+
+<!-- wird im footer mit /div beendet -->

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence version="2.0"
+	xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+	http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+	<!-- JAVA SE - HIBERNATE - MINIMAL -->
+
+	<persistence-unit name="MSSQLSERVER">
+		<properties>
+			<property name="javax.persistence.jdbc.driver"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+		</properties>
+	</persistence-unit>
+
+
+	<persistence-unit name="MYSQL">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/test" />
+			<property name="javax.persistence.jdbc.user" value="root" />
+			<property name="javax.persistence.jdbc.password" value="" />
+		</properties>
+	</persistence-unit>
+
+
+
+	<persistence-unit name="POSTGRES">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/jees" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+		</properties>
+	</persistence-unit>
+
+
+	<persistence-unit name="ORACLE">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+		</properties>
+	</persistence-unit>
+
+
+	<persistence-unit name="H2">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost:9092/~/databases/test" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+		</properties>
+	</persistence-unit>
+
+
+	<persistence-unit name="HSQL">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:hsql://localhost:9001" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+		</properties>
+	</persistence-unit>
+
+
+	<persistence-unit name="H2MEM">
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="create" />
+
+			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:jpa" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+		</properties>
+	</persistence-unit>
+
+
+	<persistence-unit name="HSQLMEM">
+		<properties>
+			<property name="hibernate.hbm2ddl.auto" value="create" />
+
+			<property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:hsqldb/data" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+		</properties>
+	</persistence-unit>
+
+</persistence>

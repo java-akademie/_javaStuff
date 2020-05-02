@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE datasources> 
+
+<!-- ******************************************************************** -->
+<!-- jees-ds.xml - fuer JBoss                                             -->
+<!-- ******************************************************************** -->
+<!-- die Datenbanken muessen so wie in <connection-url> beschrieben       -->
+<!-- vorhanden sein                                                       -->
+<!-- ******************************************************************** -->
+<!-- diese Datei (jees-ds.xml muss in das Verzeichnis                     -->
+<!-- JBOSS_HOME/server/default/deploy kopiert werden                      -->
+<!--                                                                      -->
+<!-- die dbDriver.jar Dateien muessen vom JBoss-Server gefunden werden    -->
+<!-- und deshalb in das Verzeichnis JBOSS_HOME/server/default/lib         -->
+<!-- kopiert werden                                                       -->
+<!-- ******************************************************************** -->
+
+<datasources>
+
+	<local-tx-datasource>
+		<jndi-name>jdbc/jeesH2</jndi-name>
+		<connection-url>jdbc:h2:tcp://localhost/~/test</connection-url>
+		<driver-class>org.h2.Driver</driver-class>
+		<user-name>sa</user-name>
+		<password></password>
+	</local-tx-datasource>
+
+	
+	<local-tx-datasource>
+		<jndi-name>jdbc/jeesMySql</jndi-name>
+		<connection-url>jdbc:mysql://localhost:3306/test</connection-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<user-name>root</user-name>
+		<password></password>
+	</local-tx-datasource>
+
+
+	<local-tx-datasource>
+		<jndi-name>jdbc/jeesPostgres</jndi-name>
+		<connection-url>jdbc:postgresql://localhost:5432/jees</connection-url>
+		<driver-class>org.postgresql.Driver</driver-class>
+		<user-name>jees</user-name>
+		<password>jees</password>
+	</local-tx-datasource>
+
+	
+	<local-tx-datasource>
+		<jndi-name>jdbc/jeesOracle</jndi-name>
+		<connection-url>jdbc:oracle:thin:@localhost:1521:xe</connection-url>
+		<driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+		<user-name>jees</user-name>
+		<password>jees</password>
+	</local-tx-datasource>
+
+
+</datasources>

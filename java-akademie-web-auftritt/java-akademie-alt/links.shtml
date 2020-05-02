@@ -1,0 +1,21 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+
+		<h1>Links</h1>
+
+		<p><a href="http://www.rucotec.ch" title="rucotec GmbH">rucotec GmbH</a></p>
+		<p><a href="http://www.blindpromo.com" title="blindpromo">Blind Promo</a> Das Spiel mit der Neugier</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	 
+	</div>
+
+<!--#include virtual="footer.shtml"--> 

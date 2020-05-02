@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence 
+	xmlns="http://java.sun.com/xml/ns/persistence" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence 
+		http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+	version="2.0">
+
+
+
+	<!-- JAVA SE - HIBERNATE -->
+
+
+	<!-- *********************************************************** -->
+	<!-- provider .................................................. -->
+	<!-- *********************************************************** -->
+    <!-- <provider>org.hibernate.ejb.HibernatePersistence</provider> -->
+	<!-- *********************************************************** -->
+  
+  
+
+	<!-- ********************************************* -->
+	<!-- hibernate.dialect value's ................... -->
+	<!-- ********************************************* -->
+	<!-- org.hibernate.dialect.SQLServerDialect ...... -->
+	<!-- org.hibernate.dialect.MySQL5InnoDBDialect ... -->
+	<!-- org.hibernate.dialect.PostgreSQLDialect ..... -->
+	<!-- org.hibernate.dialect.H2Dialect ............. -->
+	<!-- org.hibernate.dialect.Oracle10gDialect ...... -->
+	<!-- org.hibernate.dialect.HSQLDialect ........... -->
+	<!-- ********************************************* -->
+
+
+	<!-- ********************************************* -->
+	<!-- hibernate.hbm2ddl.auto - value's ............ -->
+	<!-- ********************************************* -->
+	<!-- validate .................................... -->
+	<!-- update ...................................... -->
+	<!-- create ...................................... -->
+	<!-- create-drop ................................. -->
+	<!-- ********************************************* -->
+
+
+	<!-- ********************************************* -->
+	<!-- transaction-type defaults ................... -->
+	<!-- ********************************************* -->
+	<!-- in a JEE Environment = "JTA" ................ -->
+	<!-- in a JSE Environment = "RESOURCE_LOCAL" ..... -->
+	<!-- ********************************************* -->
+
+
+	<!-- **************************************************************** -->
+	<!-- <property name="hibernate.show_sql" value="false" /> ........... -->
+	<!-- <property name="hibernate.format_sql" value="false" /> ......... -->
+	<!-- <property name="hibernate.use_sql_comments" value="false" /> ... -->
+	<!-- **************************************************************** -->
+
+
+	<persistence-unit name="MSSQLSERVER">
+		<properties>
+			<property name="javax.persistence.jdbc.driver"
+				value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+		</properties>
+	</persistence-unit>
+
+
+
+	<persistence-unit name="MYSQL">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jees" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+		</properties>
+	</persistence-unit>
+
+
+
+	<persistence-unit name="POSTGRES">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/jees" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+		</properties>
+	</persistence-unit>
+
+
+
+	<persistence-unit name="ORACLE">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe" />
+			<property name="javax.persistence.jdbc.user" value="jees" />
+			<property name="javax.persistence.jdbc.password" value="jees" />
+		</properties>
+	</persistence-unit>
+
+
+
+	<persistence-unit name="HSQL">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:hsql://localhost:9001" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+		</properties>
+	</persistence-unit>
+
+
+
+	<persistence-unit name="H2">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost:9092/~/h2/test3" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+		</properties>
+	</persistence-unit>
+
+
+
+	<persistence-unit name="HSQLMEM">
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbcDriver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:hsqldb/data" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+			
+			<property name="hibernate.hbm2ddl.auto" value="create" />
+		</properties>
+	</persistence-unit>
+	
+	
+	
+	
+	<persistence-unit name="H2MEM" transaction-type="RESOURCE_LOCAL">
+
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:jpa" />
+			<property name="javax.persistence.jdbc.user" value="sa" />
+			<property name="javax.persistence.jdbc.password" value="" />
+
+			<property name="hibernate.hbm2ddl.auto" value="create" />
+
+			<property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" />
+
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="false" />
+			<property name="hibernate.use_sql_comments" value="false" />
+		</properties>
+
+	</persistence-unit>
+
+
+</persistence>

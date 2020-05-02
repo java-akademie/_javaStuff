@@ -1,0 +1,173 @@
+<!--#include virtual="header.shtml"--> 
+
+	<div id="inhalt">
+		
+		<p align="right">
+			<small>
+				Vorkurs:&nbsp;<a href="java_2.shtml">JAVA II</a> 
+			</small>
+		</p>
+		
+		<p class="kurstitel">Java SCJP</p>
+			
+		<h1>Vorbereitung zur Pr&uuml;fung zum Sun Certified Java Programmer</h1>
+
+		<h2>Zielsetzung</h2>
+		<p>
+			Sun Microsystems hat fr&uuml;h erkannt, dass mit einer kontrollierten 
+			Zertifizierung die Qualit&auml;t der Fachleute und letztlich auch die 
+			Qualit&auml;t der Programme gew&auml;hrleistet ist. 
+		</p>
+		<p>
+			Dieser Kurs vertieft die Grundlagen der Programmiersprache Java 
+			und f&uuml;hrt Sie sicher zur Zertifizierung und somit zu einer 
+			erfolgreichen Zukunft.
+		</p>
+		
+		<h2>Voraussetzung</h2>
+		<p>
+			Java Kenntnisse wie Sie sie in Java I und Java II erworben haben 
+			oder gleichwertige anderweitig erworbene Kenntnisse.
+		</p>
+		
+		<h2>Methoden</h2>
+		<p>
+			Gruppenunterricht mit Lehrer und PC-Praxis.<br />
+			Pro Woche ist mit 6 - 8 Stunden Hausaufgaben und &Uuml;bungen 
+			zu rechnen.
+		</p>
+		
+		<h2>Kursdurchf&uuml;hrung</h2>
+		<p>
+			Es werden alle pr&uuml;fungsrelevanten Java-Komponenten wiederholt und 
+			vertieft. 
+			Weiterf&uuml;hrende &Uuml;bungen werden Ihre Programmierf&auml;higkeiten 
+			verbessern. 
+			Sie werden die Gelegenheit haben, Probepr&uuml;fungen zu l&ouml;sen. 
+			Der Kurs wird in Deutsch abgehalten. 
+			Die Probepr&uuml;fungen sind in Englisch. Die Pr&uuml;fung selbst kann 
+			in Englisch oder in Deutsch abgelegt werden.
+		</p>
+		
+		<table>
+			<tr>
+				<td><b>Dauer</b></td>
+				<td>12 Wochen &agrave; 4 Lektionen = 48 Lektionen</td>
+			</tr>
+			<tr>
+				<td><b>Daten</b></td>
+				<td>Dienstag oder Donnerstag 18:00 - 21:30</td>
+			</tr>
+			<tr>
+				<td><b>Kosten</b></td>
+				<td>2'400.00 Fr</td>
+			</tr>
+		</table>
+		
+		&nbsp;
+		
+		<h2>Kursinhalt</h2>
+		<ol>
+			
+			<li>
+				Language Fundamentals
+				<ul>
+					<li>Toplevel Elemente</li>
+					<li>Reservierte Worte</li>
+					<li>Literale</li>
+					<li>Arrays</li>
+					<li>main() Methode</li>
+					<li>Variablen (Klasse, Instanz, lokale Variable)</li>
+					<li>Konstruktoren</li>
+					<li>Methoden (Klasse, Instanz)</li>
+					<li>Initialisierung (Klasse, Variable)</li>
+					<li>Parameter&uuml;bergabe</li>
+					<li>Garbage Collection</li>
+				</ul>
+			</li>
+			
+			<li>	
+				Operators and Assignments
+				<ul>
+					<li>Ausf&uuml;hrungsreihenfolge</li>
+					<li>Arithmetische Operatoren</li>
+					<li>Schiebeoperatoren</li>
+					<li>Vergleichsoperatoren</li>
+					<li>Bit-Operatoren (AND, OR, XOR)</li>
+					<li>Zuweisungsoperatoren</li>
+				</ul>
+			</li>
+			
+			<li>
+				Modifiers
+				<ul>
+					<li>Zugriff: private, protected, public</li>
+					<li>andere (static, final, transient, volatile, etc)</li>
+				</ul>
+			</li>
+			
+			<li>
+				Converting and Casting
+			</li>
+			
+			<li>
+				Flowcontrol, Assertion, Exceptions
+				<ul>
+					<li>if-else, while, switch, for ...</li>
+					<li>throw-catch-finally</li>
+					<li>assert</li>
+				</ul>
+			</li>
+			
+			<li>
+				Objects and Classes
+				<ul>
+					<li>Abstrakion</li>
+					<li>Wiederverwendbarkeit</li>
+					<li>Datenkapselung</li>
+					<li>Komposition und Aggregation</li>
+					<li>Vererbung</li>
+					<li>Polymorphismus</li>
+					<li>&Uuml;berladen und &Uuml;berschreiben von Methoden</li>
+					<li>Innere Klassen</li>
+					<li>Anonyme Klassen</li>
+				</ul>
+			</li>		
+			
+			<li>
+				Packages (java.lang und java.util)
+				<ul>
+					<li>String, Stringbuffer, Wrapper-Klassen, Object, Math </li>
+					<li>Collections (List, Set, Map)</li>
+				</ul>
+			</li>
+					
+			<li>
+				Threads
+				<ul>
+					<li>Klassen Thread und Runnable</li>
+					<li>Lebenszyklus eines Threads</li>
+					<li>Synchronisation (synchronized, wait, notify)</li>
+				</ul>
+			</li>		
+					
+			<li>
+				I/O and Streams
+				<ul>
+					<li>File</li>
+					<li>Streams</li>
+					<li>Readers and Writers</li>
+				</ul>
+			
+			</li>		
+	
+		</ol>
+			
+		<p align="right">
+			<small>
+				Folgekurs:&nbsp;<a href="jee_wcd.shtml">JEE WCD</a> 
+			</small>
+		</p>
+		
+	</div>
+<!--#include virtual="footer.shtml"--> 
