@@ -12,7 +12,7 @@ das Projekt ist zu gross - push rejected
 ich habe dem push auf ein paar kleinere Brocken aufgeteilt
 ich hab einen zu grossen Brocken genommen - rejected
 erneuter Versuch
-jetzt werden Files committed die schon vorhanden sind 
+fehler nicht behoben
 
 Files dürfen nicht grösser 100 MB sein
 gesehen hab ich das als ich den push über die Konsole versuchte
