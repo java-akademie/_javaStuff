@@ -2,7 +2,7 @@
 
 ### 02.05.2020
 ```
-JavaStuff sollte in Github gelöscht werden
+JavaStuff sollte in Github geloescht werden
 
 java Installationsprogramme 1.8 und 11
 sowie Hibernate3 und 4 entfernt
@@ -14,7 +14,9 @@ ich hab einen zu grossen Brocken genommen - rejected
 erneuter Versuch
 fehler nicht behoben
 
-Files dürfen nicht grösser 100 MB sein
-gesehen hab ich das als ich den push über die Konsole versuchte
+Files duerfen nicht groesser 100 MB sein
+gesehen hab ich das als ich den push ueber die Konsole versuchte
+
+javaSE-GitHub
 
 ```
