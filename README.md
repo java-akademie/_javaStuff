@@ -2,7 +2,7 @@
 
 ### 02.05.2020
 ```
-JavaStuff sollte in Github geloescht werden
+JavaStuff sollte in Github geloescht werden.
 
 java Installationsprogramme 1.8 und 11
 sowie Hibernate3 und 4 entfernt
